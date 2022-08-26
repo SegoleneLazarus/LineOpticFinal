@@ -1,0 +1,1316 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body
+{
+    
+    margin: 0;
+    
+    
+}
+
+.ajout
+{
+    margin-right: 5%;
+    font-size: 1.5em;
+    color: orange;
+}
+
+.img-fluid
+{
+    
+    width: 100%;
+    height: auto;
+    
+}
+p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+/*/////HEADER*/
+
+header
+{
+    
+    background-color: white;
+    
+}
+
+nav
+{
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+h2{
+    text-shadow: 1px 6px 3px #FFFFFF;   
+}
+
+.nav_mobile{
+    display: none;
+}
+
+.nav_desk
+{
+    /* padding: 2.5% 5%; */
+    margin: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.logo
+{
+    
+    width: 20vw;
+    padding: 2%;
+    
+}
+
+nav ul
+{
+    
+    display: flex;
+    list-style: none;
+    width: 55vw;
+    
+}
+
+nav ul li 
+{
+    
+    padding: 5%;
+    
+}
+
+nav ul li a
+{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+/*//////MAIN index*/
+
+/* main
+{
+    
+   max-width: 80vw;
+    
+} */
+
+#slider
+{
+    
+    height: 100vh;
+    background-image: url(/img/_MLB5709@.jpg);
+    background-size: cover;
+    background-color: azure;
+    padding: 5%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    
+}
+
+#slider div{
+    /* width: 20vw; */
+    background-color: rgb(120, 212, 145,0.8) ;
+    padding: 5%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#slider h2{
+    font-size: 3em;
+}
+
+#slider p{
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+#slider a{
+    text-decoration: none;
+    color: #f6b02d;
+    font-size: 1.9em;
+}
+
+#slider a:hover{
+    text-decoration:underline;
+    transition: 0.4s;
+    
+}
+
+section
+{
+    
+    
+    margin-bottom: 7%;
+    
+}
+
+
+/*section qui sommes-nous*/
+
+/*
+h1
+{
+    
+    margin-bottom: 7%;
+    width: 60vw;
+    margin-top: 5%;
+    
+}
+*/
+
+.qui{
+    background-image: url("/img/lunettesVert.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+h1{
+    font-size: 2em;
+    margin: 50px;
+    text-shadow: 1px 6px 3px #FFFFFF;
+}
+
+/* text + img */
+#artQui{
+    display: flex;
+    width: 70%;
+}
+
+/* text seul */
+#textQui{
+    background-color: white;
+    padding: 40px 120px 40px 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* img seule */
+#divImgQui{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 10%;
+    
+}
+#imgQui{
+    width: 150px;
+    height: 150px;
+    background-color:#78d491;
+    background-image: url(/img/_MLB5532@.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* div du bouton */
+/* button{
+    border: none;
+    text-decoration: none;
+    background-color: #F6AE2D;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 1.2em;
+
+    transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+} */
+
+button{
+
+  background-color:#f6b02d;
+border-radius:10px;
+margin-top: 30px;
+/* margin-right: 90px; */
+display:inline-block;
+cursor:pointer;
+color:#000000;
+font-size:1.1em;
+padding:16px 31px;
+  text-decoration:none;
+  border: none;
+}
+
+button:hover {
+background-color:#f7d9ac;
+}
+button:active {
+position:relative;
+top:1px;
+}
+
+
+
+
+/* ----------Fournisseurs---------- */
+.nouveautes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+	  align-items: center;
+    margin: 0;
+}
+
+
+.nouvfourni{
+    display: flex;
+    justify-content: space-evenly;
+	  align-items: center;
+    width: 100%;
+}
+
+.divImgFourni{
+    width: 300px;
+    /* object-fit: cover; */
+}
+
+#logo2{
+    padding: 40px;
+}
+
+#hr{
+    width: 30%;
+    height: 2px;
+    margin: 10%;
+    background-color: black;
+
+}
+
+.voirfourni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*//////MAIN entreprise*/
+
+/*section presentation*/
+
+/*section presentation*/
+
+.presentation {
+    background-image: url(/img/_MLB5584@.jpg);
+    background-size: cover;
+    background-color: #f0fafc;
+    /* height: 90vh; */
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentation article {
+    width: 50vw;
+    /* height: 50vh; */
+    background-color: white;
+    text-align: justify;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10vh 15vw 10vh 15vw;
+}
+
+.presentation h2 {
+    padding-bottom: 2%;
+    font-size: 1.2em;
+}
+
+.presentation p {
+    font-size: 1.2em;
+}
+
+
+/*section services*/
+
+.services {
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.services h1 {
+    margin-bottom: 5%;
+}
+
+.services h2 {
+    font-size: 1.5em;
+}
+
+.domicile {
+    padding-left: 7%;
+    animation-name: slide-left;
+    animation-duration: 3s;
+}
+
+.test {
+    margin-left: 12%;
+}
+
+.services article {
+    border: grey;
+    width: 50vw;
+    /* height: 40vh; */
+    margin: 0 auto;
+    margin-bottom: 7%;
+    padding: 5%;
+    position: relative;
+    box-shadow: 0px 4px 2px 0px rgba(100, 112, 104, 0.4);
+}
+
+.services p {
+    width: 40vw;
+    font-size: 1em;
+    /* text-align: justify; */
+}
+
+.iconeservi {
+    position: absolute;
+    background-color: #f0fafc;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 25%;
+    left: 90%;
+    box-shadow: 0px 4px 2px 0px rgba(100, 112, 104, 0.4);
+    
+}
+
+.iconeservi img {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.oreille {
+    background-color: #78d491;
+    top: 25%;
+    left: -12%;
+}
+
+.oreille img{
+    margin-top:25%;
+}
+
+.audition {
+    margin-bottom: 15vh;
+}
+
+.audition h2,
+.audition p {
+    padding-left: 13%;
+}
+
+
+/*section equipe*/
+
+.img-pres {
+    border-radius: 50%;
+}
+
+.equipe h1 {
+    width: 60vw;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 9%;
+    /* margin-block-start: 0.83em;
+    margin-block-end: 0.83em; */
+}
+
+.equipe {
+    /* background-color: #f0fafc; */
+    height: 120vh;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 25%;
+}
+
+.equipe_bg {
+    background-image: url("../img/_MLB5587-Panorama@.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.employes {
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    /* padding-top: 50vh; */
+}
+
+.employes .suivant, .precedent {
+    width: 10%;
+    margin-bottom: 2%;
+}
+
+.equipe h2 {
+    font-size: 1.75em;
+    padding-top: 35%;
+    /* padding-bottom: 1%; */
+}
+
+.equipe h3 {
+    font-size: 1em;
+    font-style: italic;
+    color: #78d491;
+    padding-bottom: 2%;
+}
+
+.equipe p {
+    font-size: 1.2em;
+}
+
+.equipe article {
+    background-color: white;
+    width: 310px;
+    padding: 2%;
+    position: absolute;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity .8s;
+}
+
+.equipe article.active {
+    opacity: 1;
+}
+
+.article_slider {
+    width: 20vw;
+    margin-left: 9%;
+    margin-right: 3%;
+}
+
+
+/* Image  */
+
+.equipe article div:first-child {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%;   */
+    border: #78d491 15px solid;
+    object-fit: cover;
+    /* top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 20px -14px 30px -15px rgba(0, 0, 0, 0.1) inset; */
+}
+
+
+/*section groupe*/
+
+.groupe div {
+    width: 80vw;
+    padding-top: 10%;
+    height: 40vw;
+    border: #78d491 20px solid;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/*////MAIN infos pratiques*/
+
+/*section infos generales*/
+
+.infosgenerales
+{
+    
+    height: 80vh;
+    /* background-image: url(/img/_MLB5623@.jpg); */
+    background-size: cover;
+    background-color: #f0fafc;
+    display: flex;
+/*    justify-content: center;*/
+    padding: 5%;
+    padding-top: 8%;
+    
+}
+
+.infosgenerales article
+{
+    
+    margin-left: 13%;
+    
+}
+
+.horaires
+{
+    
+    position: relative;
+    background-color: white;
+    width: 25vw;
+    height: auto;
+    box-shadow: 0px 4px 2px 0px rgba(100,112,104,0.4);    
+    padding: 3%;
+    
+}
+
+.horaires h2
+{
+    
+    position: absolute;
+    background-color: #78d491;
+    padding: 2% 17% 2% 17%;
+    top: -13%;
+    left: 20%;
+    
+}
+
+.horaires table
+{
+    margin: 0 auto;
+    width: 20vw;
+    height: auto;
+    
+    
+}
+
+td
+{
+    
+    padding: 3%;
+    
+}
+
+tr td:first-child
+{
+    
+    text-align: left;
+    font-weight: bold;
+    width: 8vw;
+    
+}
+
+tr td:last-child
+{
+    
+    text-align: right;
+    
+}
+
+/* .infotxt div
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+} */
+
+/*section plan*/
+
+.plan {
+    height: auto;
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 7%;
+}
+
+.plan article {
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe {
+    border: solid 15px #78d491;
+    width: 40vw;
+    height: 60vh;
+}
+
+
+
+/*//////FOOTER*/
+
+footer
+{
+   
+    background-color: aliceblue;
+    
+}
+
+footer a
+{
+    
+    text-decoration: none;
+    color: black;
+}
+
+.footer
+{
+    
+    height: 30vh;
+    width: 60vw;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.rs{
+    display: flex;
+}
+
+.rslogo
+{
+    
+    width: 4vw;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vw;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.login button{
+    margin-right: 0px;
+}
+input{
+    padding: 10px;
+     font-size: 18px;
+     border-width: 2px;
+     border-style: solid;
+     border-radius: 5px;
+     border-color: #3a7e4c;
+     text-align: center;
+}
+
+input[type=submit]{
+    background-color:#f6b02d;
+border-radius:10px;
+margin: 0 auto;
+margin-top: 30px;
+display:inline-block;
+cursor:pointer;
+color:#000000;
+font-size:1.1em;
+padding:16px 31px;
+  text-decoration:none;
+  border: none;
+}
+
+
+input[type=submit]:hover {
+    background-color:#f7d9ac;
+}
+input[type=submit]:active {
+    position:relative;
+    top:1px;
+}
+
+/* input[type=textarea]{
+    height: 200px;
+} */
+
+label{
+    margin-top:12%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    color: #78d491;
+}
+
+
+input:focus{
+    border-color: #78d491;
+}
+
+.suppr{
+    display: block;
+    margin: 0;
+    width: 0vw;
+
+}
+
+.supprimer
+{
+    padding: 5px;
+    background-color: red;
+    margin: 0%;
+
+}
+
+.modifsupr{
+    display: flex;
+    align-items: center;
+    width: 39vw;
+    justify-content: space-evenly;
+}
+
+.contact, .adresse{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listeFournisseurs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 40%;
+    /* height: 300px; */
+    
+}
+.listeFournisseurs div{
+    display: flex;
+    align-items: center;
+    /* border-radius: 50%; */
+    padding: 20px;
+    background-color: white;
+    border: solid #78d491 3px;
+    width: 20%;
+    margin: 2%;
+    /* height: 20%; */
+    /* object-fit: fill; */
+    transition:0.5s;
+    
+}
+
+.fournilien{
+    background-color: #f6b02d;
+    text-decoration: none;
+    height: 20vh;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.fournilien a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.photos{
+    display: none;
+    width: 70%;
+    margin: 0 auto;
+}
+.photos div{
+    width: 33%;
+}
+.photos div:first-child{
+    width: 100%;
+}
+.active1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoimg{
+    height: 100vh;
+    background-image: url(/img/_MLB5623@.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* // page conseil */
+
+#titre_conseils{
+    font-size: 32px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    background-image: url("/img/_MLB5575@.jpg");
+    background-size: cover;
+}
+
+.categories, .dernieres_publications{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.categories h3, .dernieres_publications h3{
+    font-size: 2em;
+
+}
+
+.categories_container, .dernieres_publications_container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+}
+
+.categories_container div, .dernieres_publications_container div {
+    width: 500px;
+    height: 300px;
+    margin: 25px;
+    text-align: center;
+    background-image: url(/img/_MLB5554@.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #3a7e4c;
+
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.dernieres_publications_container, .autres_articles a{
+    color: #f6b02d;
+    text-shadow: 1px 2px 4px #000000;
+}
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.row{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.col button{
+    margin-right: 0;
+}
+
+#titre_article{
+    font-size: 32px;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: green;
+}
+
+.contenu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.contenu article{
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    margin: 5%;
+}
+
+.contenu h2{
+    width: 80%;
+    text-align: left;
+}
+
+.para{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+
+.autres_articles{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+
+.autres_articles_container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.autres_articles_container div {
+    width: 500px;
+    height: 300px;
+    margin: 25px;
+    text-align: center;
+    background-image: url(/img/_MLB5554@.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #3a7e4c;
+
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.autres_articles_container{
+    color: #f6b02d;
+}
+
+.iphone{
+    display: none;
+}
+
+.boindex{
+    width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.boindex div{
+    
+    
+    display: flex;
+
+}
+
+.boindex div div{
+    display: flex;
+    flex-direction: column;
+    border: #78d491 solid 2px;
+    padding: 5%;
+
+}
+@media screen and (max-width: 915px) {
+    h1{
+        font-size: 2em;
+        padding-left: 7%;
+        text-shadow: 1px 6px 3px #FFFFFF;
+    }
+    h2{
+        font-size: 1.5em;
+        text-shadow: 1px 6px 3px #FFFFFF;
+    }
+    header{
+        background-color: white;
+        box-shadow : 0px -4px 10px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        top: 90%;
+        left: 0%;
+        right: 0%;
+        }
+
+        .iphone{
+            display: block;
+            background-color: white;
+            top: 0;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+        }
+
+        .iphone img{
+            width: 50vw;
+        }
+        
+        .nav_desk{
+            display: none;
+        }
+    
+        nav .nav_desk{
+            padding: 0;
+            margin:0;
+        }
+    
+        .nav_mobile{
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+    
+        .nav_mobile ul{
+            width: 100%;
+        }
+    
+        .nav_mobile li a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+            font-weight: 500;
+        }
+    
+        .nav_mobile li a img:nth-child(2) {
+            display: none; 
+        }
+    
+        .nav_mobile li a:hover img:nth-child(1) {
+            display: none;
+        }
+    
+        .nav_mobile li a:hover img:nth-child(2) {
+            display: block;
+        }
+    
+        .nav_mobile li a:focus img:nth-child(2) {
+            display: block;
+        }
+    
+        .nav_mobile img{
+            width: 32px;
+            height: auto;
+            padding-bottom: 5px;
+        }
+    .presentation{
+        
+        height: 100vh;
+    }
+    .presentation article {
+        font-size: 1em;
+        width: 60vw;
+        padding: 7%;
+    }
+    .services{
+        width: 100%;
+        
+    }
+    .services article{
+        width: 70vw;
+        box-shadow: none;
+    }
+    .iconeservi {
+        display: none;
+    }
+    .services p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1em;
+        text-align: justify;
+        
+    }
+    .audition h2,
+    .audition p {
+        padding-left: 0;
+    }
+    .services h2 {
+        text-align: center;
+        background-color: #78d491;
+        padding: 5%;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 40%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    /* .presentation article {
+        width: 90vw;
+        margin: 5vh 10vw 5vh 10vw;
+    } */
+    .equipe article {
+        width: 75vw;
+        padding: 9%;
+        padding-left: 5%;
+        margin: 0 auto;
+    }
+    .equipe article h2{
+        padding-top: 45%;
+    }
+    .equipe article div {
+        width: 150px;
+        height: 150px;
+        border: #78d491 15px solid;
+        margin-bottom: 2%;
+    }
+    .groupe div {
+        border: #78d491 10px solid;
+    }
+
+    .qui h1, .nouveautes h1{
+        font-size: 8vw;
+      }
+      .qui p{
+        font-size: 1em;
+      }
+      button{
+        font-size: 1em;
+      }
+      /*------Qui sommes nous?------*/
+      #divImgQui {
+        order: -1;
+      }
+    
+      /* text + img */
+      #artQui{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+      }
+    
+      /* text seul */
+      #textQui{
+        padding: 40px;
+      }
+    
+      /* img seule */
+      #divImgQui{
+        display: flex;
+        align-items: center;
+        position: static;
+      }
+      #imgQui{
+        width: 100%;
+        height: auto;
+        background-color: lightcoral;
+        margin-bottom: 30px;
+      }
+      
+      
+      /*------Fournisseurs------*/
+        .nouvfourni{
+          flex-direction: column;
+        }
+        #logo1, #logo2{
+          order: -1;
+        }
+        #hr{
+          width: 50%;
+      }
+
+      .infosgenerales {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-top: 12%;
+    }
+    .infosgenerales article {
+        margin: 0 auto;
+    }
+
+      .horaires {
+        width: 75vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .horaires h2 {
+        left: 15%;
+    }
+    .horaires table {
+        width: 50vw;
+        margin: 5%;
+        margin-top: 10%;
+    }
+    .plan article {
+        flex-direction: column;
+    }
+    iframe {
+        width: 80vw;
+    }
+    .plan article div {
+        margin: 0 auto;
+    }
+
+    .contact p, .adresse p{
+        font-size: 1em;
+    }
+
+    .footer{
+        width: 90%;
+        padding-bottom: 10vh;
+    }
+
+    .listeFournisseurs{
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        margin: 0 auto;
+    }
+    
+    .listeFournisseurs div{
+        align-items: center;
+        border-radius: 0;
+        /* border: none; */
+        /* J'arrive pas à enlever les border, je vais péter un boulon */
+        /* Je voulais faire des div rectangulaires horizontales les unes en dessous des autres ou alors un slider*/
+    }
+    .listeFournisseurs div img{
+        border-radius: 0;
+    }
+
+    #slider{
+        text-align: center;
+    }
+    #slider h2{
+        font-size: 1.5em;
+    }
+    #slider p{
+        font-size: 1.2em;
+    }
+
+    #slider h1{
+        margin: 0;
+    }
+}
